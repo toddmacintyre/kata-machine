@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "node",
+      "runtimeVersion": "14",
+      "request": "launch",
+      "name": "Jest: specific file",
+      "env": { "NODE_ENV": "test" },
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["BinarySearch"],
+      "console": "integratedTerminal",
+    }
+  ]
+}
