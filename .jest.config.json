@@ -5,5 +5,8 @@
             "<rootDir>/src/day1/$1"
         ]
     },
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "roots": [
+        "<rootDir>/src"
+    ]
 }
